@@ -7,8 +7,8 @@ from telethon import TelegramClient
 api_id = number
 api_hash = 'string'
 
-# Name for the session file for Server A
-session_name = 'session_server_a'
+# Name for the session file
+session_name = 'session_name'
 
 # Create a TelegramClient instance
 client = TelegramClient(session_name, api_id, api_hash)
