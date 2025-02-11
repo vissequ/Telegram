@@ -6,7 +6,8 @@ from telethon import TelegramClient
 # Replace these with your actual Telegram API credentials
 api_id = number
 api_hash = 'string'
-session_name = 'session_server_a'
+# Name for the session file
+session_name = 'session_name'
 
 client = TelegramClient(session_name, api_id, api_hash)
 
